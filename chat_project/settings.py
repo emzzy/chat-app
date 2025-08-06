@@ -1,6 +1,7 @@
 from pathlib import Path
 import os
 from dotenv import load_dotenv
+
 load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -44,6 +45,11 @@ STREAM_API_KEY = os.environ.get('STREAM_API_KEY')
 STREAM_API_SECRET = os.environ.get('STREAM_API_SECRET')
 
 
+LOGOUT_REDIRECT_URL = '/'
+LOGIN_REDIRECT_URL = '/rooms/'
+LOGIN_URL = '/login'
+
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -55,6 +61,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'room',
 ]
 
 MIDDLEWARE = [

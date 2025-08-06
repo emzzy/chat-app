@@ -18,6 +18,7 @@ cryptography==45.0.5
 daphne==4.2.1
 Django==5.2.4
 djangorestframework==3.16.0
+dotenv==0.9.9
 frozenlist==1.7.0
 hyperlink==21.0.0
 idna==3.10
@@ -32,6 +33,7 @@ pycares==4.9.0
 pycparser==2.22
 PyJWT==2.10.1
 pyOpenSSL==25.1.0
+python-dotenv==1.1.1
 redis==6.3.0
 requests==2.32.4
 service-identity==24.2.0
