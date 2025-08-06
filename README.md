@@ -13,7 +13,7 @@ This scalable real-time chat application built with Django, Channels, Redis, and
 
 ## Tech Stack
 
-- **Backend**: Django, Django Channels, Redis, Daphne  
+- **Backend**: Python/Django, Django Channels, Redis, Daphne  
 - **Real-Time Layer**: ASGI, Channels, WebSockets  
 - **Messaging SDK**: Stream Python SDK  
 - **Frontend**: HTML, JavaScript  
