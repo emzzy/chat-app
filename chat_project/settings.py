@@ -1,4 +1,8 @@
 from pathlib import Path
+import os
+
+from dotenv import load_dotenv
+load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -37,8 +41,8 @@ CHANNEL_LAYERS = {
     },
 }
 # Stresm API Credentials
-STREAM_API_KEY = 'hp3fvyjvnagw'
-STREAM_API_SECRET = 'gjvxgb925wrktzj6qpgr7xcr27e9zt49wnmrxj5hankv9qe2s67qj4tegt86mrs7'
+STREAM_API_KEY = os.environ.get('STREAM_API_KEY')
+STREAM_API_SECRET = os.environ.get('STREAM_API_SECRET')
 
 
 # Application definition
