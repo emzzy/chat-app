@@ -15,10 +15,10 @@ This scalable real-time chat application built with Django, Channels, Redis, and
 
 - **Backend**: Python/Django, Django Channels, Redis, Daphne  
 - **Real-Time Layer**: ASGI, Channels, WebSockets  
-- **Messaging SDK**: Stream Python SDK  
 - **Frontend**: HTML, JavaScript  
 - **Database**: SQLite (optional)
 
 ## Installation
 
 ### 1. Clone the Repository
+### 2. Open your Terminal
